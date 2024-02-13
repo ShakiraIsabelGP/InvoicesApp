@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$semantic_ui_react$Pagination.js",
+"lineCount":3,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,oDAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,mCAAf,GAAqDH,MAAOC,CAAAA,EAAGG,CAAAA,OAAV,CAAkB,2DAAlB,EAA+E,EAA/E,CAAA,CAAmF,YAAnF,CAArD;;",
+"sources":["shadow.js.shim.module$semantic_ui_react$Pagination.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$semantic_ui_react$Pagination\");\nshadow.js.shim.module$semantic_ui_react$Pagination = shadow.js.require(\"module$node_modules$semantic_ui_react$dist$commonjs$index\", {})[\"Pagination\"];\n"],
+"names":["goog","provide","shadow","js","shim","module$semantic_ui_react$Pagination","require"]
+}

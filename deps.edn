@@ -1,0 +1,36 @@
+{:paths   ["src/main"]
+
+ :deps    {clj-http/clj-http {:mvn/version "3.12.3"}
+           cheshire/cheshire {:mvn/version "5.12.0"}
+           noencore/noencore {:mvn/version "0.3.7"}
+           com.fulcrologic/fulcro {:mvn/version "3.7.0-RC5"}
+           com.fulcrologic/fulcro-rad  {:mvn/version "1.6.0-RC5"}
+           com.fulcrologic/fulcro-rad-semantic-ui {:mvn/version "1.4.0-RC5"}
+           com.fulcrologic/fulcro-i18n {:mvn/version "1.1.0"}
+           com.wsscode/pathom {:mvn/version "2.4.0"}
+           edn-query-language/eql {:mvn/version "1.0.2"}
+           com.fulcrologic/guardrails {:mvn/version "1.1.11"}
+           com.taoensso/tufte {:mvn/version "2.4.5"}
+           mount/mount {:mvn/version "0.1.17"}
+           hiccup/hiccup {:mvn/version "1.0.5"}
+           ring/ring-defaults {:mvn/version "0.3.4"}
+           ring/ring-core {:mvn/version "1.9.6"}
+           http-kit/http-kit {:mvn/version "2.5.3"}
+           com.taoensso/timbre {:mvn/version "6.0.4"}
+           org.slf4j/log4j-over-slf4j {:mvn/version "1.7.36"}
+           org.slf4j/jul-to-slf4j {:mvn/version "1.7.36"}
+           org.slf4j/jcl-over-slf4j {:mvn/version "1.7.36"}
+           com.fzakaria/slf4j-timbre {:mvn/version "0.3.21"}
+           org.clojure/clojurescript {:mvn/version "1.11.60"}
+           org.clojure/clojure {:mvn/version "1.11.1"}}
+
+ :aliases {:datomic   {:extra-paths ["src/datomic"]
+                       :extra-deps  {com.datomic/local                  {:mvn/version "1.0.267"}
+                                     com.fulcrologic/fulcro-rad-datomic {:mvn/version "1.4.5"}}}
+           :dev       {:extra-paths ["src/dev" "resources"]
+                       :extra-deps  {thheller/shadow-cljs                {:mvn/version "2.20.16"}
+                                     com.fulcrologic/semantic-ui-wrapper {:mvn/version "2.1.4"}
+                                     binaryage/devtools                  {:mvn/version "1.0.6"}
+                                     org.clojure/tools.namespace         {:mvn/version "1.4.4"}}}}}
+
+

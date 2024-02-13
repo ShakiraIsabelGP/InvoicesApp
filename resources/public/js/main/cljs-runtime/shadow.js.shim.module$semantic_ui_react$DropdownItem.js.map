@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$semantic_ui_react$DropdownItem.js",
+"lineCount":3,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,sDAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,qCAAf,GAAuDH,MAAOC,CAAAA,EAAGG,CAAAA,OAAV,CAAkB,2DAAlB,EAA+E,EAA/E,CAAA,CAAmF,cAAnF,CAAvD;;",
+"sources":["shadow.js.shim.module$semantic_ui_react$DropdownItem.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$semantic_ui_react$DropdownItem\");\nshadow.js.shim.module$semantic_ui_react$DropdownItem = shadow.js.require(\"module$node_modules$semantic_ui_react$dist$commonjs$index\", {})[\"DropdownItem\"];\n"],
+"names":["goog","provide","shadow","js","shim","module$semantic_ui_react$DropdownItem","require"]
+}
